@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- CM additions -->
+    <project path="device/intel/sepolicy" name="CM-CHT/android_device_intel_sepolicy" revision="cm-12.1" />
+    <project path="hardware/realtek/libbt" name="CM-CHT/android_hardware_realtek_libbt" revision="cm-12.1" />
+    <project path="hardware/realtek/wlan" name="CM-CHT/android_hardware_realtek_wlan" revision="cm-12.1" />
+
+    <!-- CM removals -->
+    <remove-project name="platform/hardware/intel/audio_media" />
+    <remove-project name="platform/hardware/intel/bootstub" />
+    <remove-project name="platform/hardware/intel/common/bd_prov" />
+    <remove-project name="CyanogenMod/android_hardware_intel_common_libmix" />
+    <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+    <remove-project name="platform/hardware/intel/common/libva" />
+    <remove-project name="platform/hardware/intel/common/libwsbm" />
+    <remove-project name="platform/hardware/intel/common/omx-components" />
+    <remove-project name="platform/hardware/intel/common/utils" />
+    <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+    <remove-project name="CyanogenMod/android_hardware_intel_img_hwcomposer" />
+    <remove-project name="CyanogenMod/android_hardware_intel_img_libdrm" />
+    <remove-project name="platform/hardware/intel/img/psb_headers" />
+    <remove-project name="platform/hardware/intel/img/psb_video" />
+
+    <!-- CM replacements -->
+    <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+    <remove-project name="CyanogenMod/android_system_core" />
+    <project path="external/bluetooth/bluedroid" name="CM-CHT/android_external_bluetooth_bluedroid" revision="cm-12.1" />
+    <project path="system/core" name="CM-CHT/android_system_core" revision="cm-12.1" />
+</manifest>
