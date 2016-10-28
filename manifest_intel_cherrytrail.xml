@@ -2,6 +2,9 @@
 <manifest>
     <!-- CM additions -->
     <project path="device/intel/sepolicy" name="CM-CHT/android_device_intel_sepolicy" revision="cm-12.1" />
+    <project path="external/thermal_daemon" name="CM-CHT/android_external_thermal_daemon" revision="cm-12.1" />
+    <project path="hardware/intel/libmedia_utils" name="CM-CHT/android_hardware_intel_libmedia_utils" revision="cm-12.1" />
+    <project path="hardware/intel/pstore-clean" name="CM-CHT/android_hardware_intel_pstore-clean" revision="cm-12.1" />
     <project path="hardware/realtek/libbt" name="CM-CHT/android_hardware_realtek_libbt" revision="cm-12.1" />
     <project path="hardware/realtek/wlan" name="CM-CHT/android_hardware_realtek_wlan" revision="cm-12.1" />
 
