@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- CM additions -->
+    <project path="hardware/realtek/wlan" name="CM-CHT/android_hardware_realtek_wlan" revision="cm-13.0" />
+    <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0" />
+
+    <!-- CM removals -->
+    <remove-project name="platform/hardware/intel/audio_media" />
+    <remove-project name="platform/hardware/intel/bootstub" />
+    <remove-project name="platform/hardware/intel/common/bd_prov" />
+    <remove-project name="CyanogenMod/android_hardware_intel_common_libmix" />
+    <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+    <remove-project name="CyanogenMod/android_hardware_intel_common_libva" />
+    <remove-project name="CyanogenMod/android_hardware_intel_common_libwsbm" />
+    <remove-project name="CyanogenMod/android_hardware_intel_common_omx-components" />
+    <remove-project name="platform/hardware/intel/common/utils" />
+    <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+    <remove-project name="CyanogenMod/android_hardware_intel_img_hwcomposer" />
+    <remove-project name="CyanogenMod/android_hardware_intel_img_psb_headers" />
+    <remove-project name="CyanogenMod/android_hardware_intel_img_psb_video" />
+    <remove-project name="platform/hardware/intel/sensors" />
+
+    <!-- CM replacements -->
+    <remove-project name="CyanogenMod/android_frameworks_av" />
+    <project path="frameworks/av" name="CM-CHT/android_frameworks_av" revision="cm-13.0" />
+</manifest>

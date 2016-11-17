@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Chuwi Vi10 Plus -->
+    <project path="device/intel/cherrytrail-common" name="CM-CHT/android_device_intel_cherrytrail-common" revision="cm-13.0" />
+    <project path="device/intel/chuwi_vi10plus" name="CM-CHT/android_device_intel_chuwi_vi10plus" revision="cm-13.0" />
+    <project path="vendor/intel" name="CM-CHT/proprietary_vendor_intel" revision="cm-13.0" />
+</manifest>
