@@ -21,6 +21,10 @@
     <remove-project name="platform/hardware/intel/sensors" />
 
     <!-- CM replacements -->
+    <remove-project name="CyanogenMod/android_build" />
     <remove-project name="CyanogenMod/android_frameworks_av" />
+    <project path="build" name="CM-CHT/android_build" revision="cm-13.0" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
     <project path="frameworks/av" name="CM-CHT/android_frameworks_av" revision="cm-13.0" />
 </manifest>
