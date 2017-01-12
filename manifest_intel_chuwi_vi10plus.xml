@@ -3,9 +3,6 @@
     <!-- Chuwi Vi10 Plus -->
     <project path="device/intel/cherrytrail-common" name="CM-CHT/android_device_intel_cherrytrail-common" revision="cm-12.1" />
     <project path="device/intel/chuwi_vi10plus" name="CM-CHT/android_device_intel_chuwi_vi10plus" revision="cm-12.1" />
-    <project path="vendor/intel" name="CM-CHT/proprietary_vendor_intel" revision="cm-12.1" />
-
-    <!-- Kernel -->
     <project path="kernel/intel/cherrytrail" name="CM-CHT/android_kernel_intel_cherrytrail" revision="cm-12.1" />
-    <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="CM-CHT/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-poky" revision="cm-12.1" />
+    <project path="vendor/intel" name="CM-CHT/proprietary_vendor_intel" revision="cm-12.1" />
 </manifest>
