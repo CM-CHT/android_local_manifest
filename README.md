@@ -14,6 +14,11 @@ Initialize repo:
     curl -L -o .repo/local_manifests/manifest_intel_chuwi_vi10plus.xml -O -L https://raw.githubusercontent.com/CM-CHT/android_local_manifest/cm-13.0/manifest_intel_chuwi_vi10plus.xml
     repo sync
 
+Download and install poky toolchain to its default location (/opt/poky/1.8):
+
+    wget http://downloads.yoctoproject.org/releases/yocto/yocto-1.8/toolchain/x86_64/poky-glibc-x86_64-core-image-sato-core2-64-toolchain-1.8.sh
+    sudo ./poky-glibc-x86_64-core-image-sato-core2-64-toolchain-1.8.sh
+
 Compile:
 
     . build/envsetup.sh
