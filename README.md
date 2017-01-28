@@ -1,4 +1,4 @@
-Local manifests to build CyanogenMod 12.1 for [Chuwi Vi10 Plus](http://www.modaco.com/forums/topic/377890-cyanogenmod-121/) and [Cube iWork8 Ultimate](http://www.modaco.com/forums/topic/377300-cyanogenmod-121/).
+Local manifests to build CyanogenMod 12.1 for [Chuwi Vi10 Plus](http://konstakang.com/devices/chuwi_vi10plus/CM12.1) and [Cube iWork8 Ultimate](http://konstakang.com/devices/cube_iwork8ultimate/CM12.1).
 
 How to build:
 -------------
