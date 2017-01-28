@@ -1,4 +1,4 @@
-Local manifests to build CyanogenMod/LineageOS 13 for [Chuwi Vi10 Plus](http://www.modaco.com/forums/topic/378038-cyanogenmod-13/) and [Cube iWork8 Ultimate](http://www.modaco.com/forums/topic/378037-cyanogenmod-13/).
+Local manifests to build CyanogenMod/LineageOS 13 for [Chuwi Vi10 Plus](http://konstakang.com/devices/chuwi_vi10plus/CM13) and [Cube iWork8 Ultimate](http://konstakang.com/devices/cube_iwork8ultimate/CM13).
 
 How to build:
 -------------
