@@ -40,5 +40,5 @@
     <project path="external/sepolicy" name="CM-CHT/android_external_sepolicy" revision="cm-12.1" />
     <project path="frameworks/av" name="CM-CHT/android_frameworks_av" revision="cm-12.1" />
     <project path="system/core" name="CM-CHT/android_system_core" revision="cm-12.1" />
-    <project path="system/core" name="CM-CHT/android_system_netd" revision="cm-12.1" />
+    <project path="system/netd" name="CM-CHT/android_system_netd" revision="cm-12.1" />
 </manifest>
